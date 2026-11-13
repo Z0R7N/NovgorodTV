@@ -1,0 +1,2 @@
+ru.example.novgorodtv:string/app_name = 0x7f020000
+ru.example.novgorodtv:drawable/ic_banner = 0x7f010000

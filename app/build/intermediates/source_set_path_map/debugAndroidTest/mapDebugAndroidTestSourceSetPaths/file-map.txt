@@ -1,0 +1,5 @@
+ru.example.novgorodtv.test.app-androidTest-0 D:\code\CodeAndroid\NovgorodTV\app\build\generated\res\resValues\androidTest\debug
+ru.example.novgorodtv.test.app-updated_navigation_xml-1 D:\code\CodeAndroid\NovgorodTV\app\build\generated\updated_navigation_xml\debugAndroidTest
+ru.example.novgorodtv.test.app-mergeDebugAndroidTestResources-2 D:\code\CodeAndroid\NovgorodTV\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+ru.example.novgorodtv.test.app-mergeDebugAndroidTestResources-3 D:\code\CodeAndroid\NovgorodTV\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+ru.example.novgorodtv.test.app-debugAndroidTest-4 D:\code\CodeAndroid\NovgorodTV\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

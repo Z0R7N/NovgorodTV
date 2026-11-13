@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.example.novgorodtv"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:5:5-79
+12-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <!-- ТВ-приставка: сенсорный экран не обязателен -->
+15    <uses-feature
+15-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:8:5-90
+16        android:name="android.hardware.touchscreen"
+16-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:8:19-62
+17        android:required="false" />
+17-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:8:63-87
+18    <uses-feature
+18-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:9:5-87
+19        android:name="android.software.leanback"
+19-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:9:19-59
+20        android:required="false" />
+20-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:9:60-84
+21
+22    <application
+22-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:11:5-30:19
+23        android:allowBackup="true"
+23-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:12:9-35
+24        android:banner="@drawable/ic_banner"
+24-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:14:9-45
+25        android:debuggable="true"
+26        android:extractNativeLibs="true"
+27        android:hardwareAccelerated="true"
+27-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:16:9-43
+28        android:icon="@drawable/ic_banner"
+28-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:13:9-43
+29        android:label="@string/app_name"
+29-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:15:9-41
+30        android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" >
+30-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:17:9-82
+31        <activity
+31-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:19:9-29:20
+32            android:name="ru.example.novgorodtv.MainActivity"
+32-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:20:13-41
+33            android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation|uiMode"
+33-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:22:13-101
+34            android:exported="true"
+34-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:21:13-36
+35            android:screenOrientation="landscape" >
+35-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:23:13-50
+36            <intent-filter>
+36-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:24:13-28:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:25:17-69
+37-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:25:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:26:17-77
+39-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:26:27-74
+40                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+40-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:27:17-86
+40-->D:\code\CodeAndroid\NovgorodTV\app\src\main\AndroidManifest.xml:27:27-83
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>

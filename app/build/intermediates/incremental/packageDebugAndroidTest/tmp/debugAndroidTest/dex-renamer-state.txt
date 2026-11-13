@@ -1,0 +1,4 @@
+#Fri Nov 13 08:24:38 MSK 2026
+base.0=D\:\\code\\CodeAndroid\\NovgorodTV\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex
